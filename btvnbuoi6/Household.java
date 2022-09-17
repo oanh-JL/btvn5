@@ -1,6 +1,7 @@
 package btvnbuoi6;
 
 public class Household extends Person {
+    // house hold ko chứa những thuộc tính của person 
     private int numberOfMember;
     private int apartmentNumber;
     private Person[] people = new Person[10];
